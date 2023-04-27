@@ -1,0 +1,127 @@
+body {
+  background-color: #121213;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.input-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+label {
+  font-family: sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item {
+  width: 40px;
+  height: 40px;
+  background-color: #121213;
+  border: 2px solid rgb(58, 58, 60);
+  margin:3px;
+  padding: 5px;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cell.correct {
+  background-color: green;
+  color: white;
+}
+
+.cell.close {
+  background-color: rgb(173, 173, 0);
+}
+
+.cell.incorrect {
+  background-color: #ccc;
+}
+
+#reset-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  border: none;
+}
+
+#reset-btn:hover {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(17, 92, 232);
+  border: none;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.message-container {
+  position: relative;
+  top: -80px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#word-input {
+  background-color: #121213;
+  border: 2px solid rgb(58, 58, 60);
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+#submit-btn {
+  background-color: cornflowerblue;
+  border-radius: 2px;
+  border: none;
+  padding: 5px 10px 5px 10px;
+}
+
+#submit-btn:hover {
+  background-color: rgb(17, 92, 232);
+  border-radius: 2px;
+  border: none;
+  padding: 5px 10px 5px 10px;
+}
+
+.resetMsg {
+  color: grey;
+  font-style: italic;
+  font-size: 14px;
+}
