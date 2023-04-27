@@ -12,7 +12,7 @@ if (localStorage.getItem('secretWord')) {
 }
 
 function getSecretWord() {
-  fetch('/src/word-list.json')
+  fetch('/word-list.json')
     .then(response => response.json())
     .then(data => {
       if (!Array.isArray(data)) {
